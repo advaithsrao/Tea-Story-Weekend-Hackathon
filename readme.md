@@ -21,3 +21,16 @@
 	- Use Moving averages, Exponential Smoothing to smooth target values over time periods
 
 - I found the best results with a LassoRegressor, that helped me get an RMSE score of 2.16454 on the problem.
+
+## How to run 
+
+1. Create a virtual envirnoment to install packages in
+   ```python3 -m venv env```
+
+2. Source into the env and install packages from the requirements.txt file
+   ```
+   source env/bin/activate
+   pip3 install -r requirements.txt
+   ```
+
+3. Run **regressor.ipynb** notebook
