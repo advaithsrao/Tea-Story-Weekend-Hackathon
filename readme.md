@@ -4,6 +4,8 @@
 - The task at hand is to predict average weekly tea prices across major cities
 - My approaches included 
 	- Time series analysis of the average prices across the 7 cities as a function of datetime feature.
+	        - Prophet by Facebook
+	        - ARIMA
 	- Multiple Regresion techniques by the likes of 
 		- Lasso Regression
 		- KNN Regressor
